@@ -274,7 +274,6 @@ main section img {
 .marketing-grid .card-img{
    display: inline-block;
    max-width: 600px;
-   align-items: auto;
    margin: 10px 0;
    height: 400px;
 }
@@ -296,7 +295,7 @@ main section img {
 .e-marketplace-agro-card{
    grid-column: 1/3;
    grid-row: 3/4;
-   text-align: center;
+   text-align: left;
    width: 35%;
    float: left;
 
@@ -309,7 +308,7 @@ main section img {
    justify-items: right;
    grid-column: 10/10;
    grid-row: 3/4;
-   text-align: center;
+   text-align: left;
    float: right;
 }
 
@@ -330,10 +329,11 @@ main section img {
    color: white;
    float: left;
    display: block;
-   margin: auto 1;
+   margin: auto -55px;
    position: absolute;
    right: 0;
    bottom: 15px;
+   height: 20px;
 } 
 .msg {
    background-color: #fcfbfb;                             
@@ -368,41 +368,3 @@ main section img {
    color: aqua;
 }
 
-/* Newsletter CSS code */
-
-/* Style the form element with a border around it */
-form {
-   border: 4px solid #f1f1f1;
- }
- 
- /* Add some padding and a grey background color to containers */
- .container {
-   padding: 20px;
-   background-color: #f1f1f1;
- }
- 
- /* Style the input elements and the submit button */
- input[type=text], input[type=submit] {
-   width: 100%;
-   padding: 12px;
-   margin: 8px 0;
-   display: inline-block;
-   border: 1px solid #ccc;
-   box-sizing: border-box;
- }
- 
- /* Add margins to the checkbox */
- input[type=checkbox] {
-   margin-top: 16px;
- }
- 
- /* Style the submit button */
- input[type=submit] {
-   background-color: #04AA6D;
-   color: white;
-   border: none;
- }
- 
- input[type=submit]:hover {
-   opacity: 0.8;
- }
